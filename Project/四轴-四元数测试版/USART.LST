@@ -1,0 +1,91 @@
+C51 COMPILER V9.00   USART                                                                 02/02/2015 10:24:51 PAGE 1   
+
+
+C51 COMPILER V9.00, COMPILATION OF MODULE USART
+OBJECT MODULE PLACED IN USART.OBJ
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE USART.C LARGE OMF2 BROWSE DEBUG TABS(2)
+
+line level    source
+
+   1          #include <STC15W4K60S4.H>
+   2          #include <USART.h>
+   3          #include <intrins.h>    
+   4          bit busy;
+   5          void Usart_Init()  //波特率115200
+   6          {
+   7   1        SCON = 0x50;  
+   8   1        AUXR |= 0x40;   
+   9   1        AUXR &= 0xFE;   
+  10   1        TMOD &= 0x0F; 
+  11   1        TL1 = 0xC3;   
+  12   1        TH1 = 0xFF;   
+  13   1        ET1 = 0;    
+  14   1        TR1 = 1;  
+  15   1        EA = 1; 
+  16   1      }
+  17          void Uart() interrupt 4 using 1
+  18          {
+  19   1          if (RI)
+  20   1          {
+  21   2              RI = 0;                       
+  22   2          }
+  23   1          if (TI)
+  24   1          {
+  25   2              TI = 0;                
+  26   2              busy = 0;             
+  27   2          }
+  28   1      }
+  29          void SendData(unsigned char dat)
+  30          {
+  31   1          while (busy);            
+  32   1          ACC = dat; 
+  33   1          busy = 1;
+  34   1          SBUF = ACC;               
+  35   1      }
+  36          void Send(int Ax,int Ay,int Az,int Gx,int Gy,int Gz)
+  37          {
+  38   1        unsigned char sum=0;
+  39   1        ES = 1;  //打开串口中断
+  40   1        SendData(0xAA);   //帧头
+  41   1        SendData(0xAA);   //帧头
+  42   1        SendData(0x02);   //功能字
+  43   1        SendData(12);     //发送的数据长度
+  44   1        SendData(Ax);     //低8位
+  45   1        SendData(Ax>>8);  //高8位
+  46   1        SendData(Ay);
+  47   1        SendData(Ay>>8);
+  48   1        SendData(Az);
+  49   1        SendData(Az>>8);
+  50   1        SendData(Gx);
+  51   1        SendData(Gx>>8);
+  52   1        SendData(Gy);
+  53   1        SendData(Gy>>8);
+  54   1        SendData(Gz);
+  55   1        SendData(Gz>>8);
+C51 COMPILER V9.00   USART                                                                 02/02/2015 10:24:51 PAGE 2   
+
+  56   1        sum+=0xAA;sum+=0xAA;sum+=0x02;sum+=12;
+  57   1        sum+=Ax>>8;sum+=Ax;sum+=Ay>>8;sum+=Ay;sum+=Az>>8;sum+=Az;
+  58   1        sum+=Gx>>8;sum+=Gx;sum+=Gy>>8;sum+=Gy;sum+=Gz>>8;sum+=Gz;
+  59   1        SendData(sum);  //校验和
+  60   1        ES = 0;   //关闭串口中断
+  61   1      }
+  62          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    269    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----      12
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =      1    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

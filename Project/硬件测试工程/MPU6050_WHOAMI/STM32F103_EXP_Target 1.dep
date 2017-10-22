@@ -1,0 +1,413 @@
+Dependencies for Project 'STM32F103_EXP', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Libraries\CMSIS\CM3\Startup\startup_stm32f10x_md.s)(0x57075F78)(--cpu Cortex-M3 -g --apcs=interwork -I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"--list .\output\listing\startup_stm32f10x_md.lst --xref -o .\output\startup_stm32f10x_md.o --depend .\output\startup_stm32f10x_md.d)
+F (.\Libraries\CMSIS\CM3\CoreSupport\core_cm3.c)(0x57075F78)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Libraries\CMSIS\CM3\CoreSupport -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\User -I.\Libraries -I.\Libraries\CMSIS -I.\User\MPU6050-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\output\core_cm3.o --omf_browse .\output\core_cm3.crf --depend .\output\core_cm3.d)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+F (.\Libraries\CMSIS\system_stm32f10x.c)(0x57075F78)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Libraries\CMSIS\CM3\CoreSupport -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\User -I.\Libraries -I.\Libraries\CMSIS -I.\User\MPU6050-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\output\system_stm32f10x.o --omf_browse .\output\system_stm32f10x.crf --depend .\output\system_stm32f10x.d)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\stm32f10x_conf.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57075F78)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c)(0x57075F78)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Libraries\CMSIS\CM3\CoreSupport -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\User -I.\Libraries -I.\Libraries\CMSIS -I.\User\MPU6050-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\output\misc.o --omf_browse .\output\misc.crf --depend .\output\misc.d)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\stm32f10x_conf.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57075F78)
+F (.\Libraries\stm32f10x_it.c)(0x57075F78)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Libraries\CMSIS\CM3\CoreSupport -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\User -I.\Libraries -I.\Libraries\CMSIS -I.\User\MPU6050-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\output\stm32f10x_it.o --omf_browse .\output\stm32f10x_it.crf --depend .\output\stm32f10x_it.d)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\stm32f10x_it.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\stm32f10x_conf.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57075F78)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x57075F78)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Libraries\CMSIS\CM3\CoreSupport -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\User -I.\Libraries -I.\Libraries\CMSIS -I.\User\MPU6050-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\output\stm32f10x_gpio.o --omf_browse .\output\stm32f10x_gpio.crf --depend .\output\stm32f10x_gpio.d)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\stm32f10x_conf.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57075F78)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x57075F78)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Libraries\CMSIS\CM3\CoreSupport -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\User -I.\Libraries -I.\Libraries\CMSIS -I.\User\MPU6050-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\output\stm32f10x_rcc.o --omf_browse .\output\stm32f10x_rcc.crf --depend .\output\stm32f10x_rcc.d)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\stm32f10x_conf.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57075F78)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c)(0x57075F78)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Libraries\CMSIS\CM3\CoreSupport -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\User -I.\Libraries -I.\Libraries\CMSIS -I.\User\MPU6050-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\output\stm32f10x_usart.o --omf_browse .\output\stm32f10x_usart.crf --depend .\output\stm32f10x_usart.d)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\stm32f10x_conf.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57075F78)
+F (.\User\main.c)(0x57075F7A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Libraries\CMSIS\CM3\CoreSupport -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\User -I.\Libraries -I.\Libraries\CMSIS -I.\User\MPU6050-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\stm32f10x_conf.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\STM32_I2C.h)(0x57075F7A)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\quad_uart.h)(0x57075F7A)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\MPU6050.h)(0x57075F7A)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\MPU6050\inv_mpu.h)(0x57075F7A)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\MPU6050\inv_mpu_dmp_motion_driver.h)(0x57075F7A)
+F (.\User\quad_uart.c)(0x57075F7A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Libraries\CMSIS\CM3\CoreSupport -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\User -I.\Libraries -I.\Libraries\CMSIS -I.\User\MPU6050-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\output\quad_uart.o --omf_browse .\output\quad_uart.crf --depend .\output\quad_uart.d)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\quad_uart.h)(0x57075F7A)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\stm32f10x_conf.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (.\User\STM32_I2C.c)(0x57075F7A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Libraries\CMSIS\CM3\CoreSupport -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\User -I.\Libraries -I.\Libraries\CMSIS -I.\User\MPU6050-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\output\stm32_i2c.o --omf_browse .\output\stm32_i2c.crf --depend .\output\stm32_i2c.d)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\STM32_I2C.h)(0x57075F7A)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\stm32f10x_conf.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57075F78)
+F (.\User\delay.c)(0x57075F7A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Libraries\CMSIS\CM3\CoreSupport -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\User -I.\Libraries -I.\Libraries\CMSIS -I.\User\MPU6050-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\output\delay.o --omf_browse .\output\delay.crf --depend .\output\delay.d)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\stm32f10x_conf.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\delay.h)(0x57075F7A)
+F (.\User\MPU6050.c)(0x57075F7A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Libraries\CMSIS\CM3\CoreSupport -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\User -I.\Libraries -I.\Libraries\CMSIS -I.\User\MPU6050-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\output\mpu6050.o --omf_browse .\output\mpu6050.crf --depend .\output\mpu6050.d)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\MPU6050.h)(0x57075F7A)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\MPU6050\inv_mpu.h)(0x57075F7A)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\MPU6050\inv_mpu_dmp_motion_driver.h)(0x57075F7A)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\quad_uart.h)(0x57075F7A)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\stm32f10x_conf.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\math.h)(0x51C7B744)
+F (.\User\MPU6050\inv_mpu.c)(0x57075F7A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Libraries\CMSIS\CM3\CoreSupport -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\User -I.\Libraries -I.\Libraries\CMSIS -I.\User\MPU6050-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\output\inv_mpu.o --omf_browse .\output\inv_mpu.crf --depend .\output\inv_mpu.d)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\math.h)(0x51C7B744)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\MPU6050\inv_mpu.h)(0x57075F7A)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\stm32f10x_conf.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\STM32_I2C.h)(0x57075F7A)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\delay.h)(0x57075F7A)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\quad_uart.h)(0x57075F7A)
+F (.\User\MPU6050\inv_mpu_dmp_motion_driver.c)(0x57075F7A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Libraries\CMSIS\CM3\CoreSupport -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\User -I.\Libraries -I.\Libraries\CMSIS -I.\User\MPU6050-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\output\inv_mpu_dmp_motion_driver.o --omf_browse .\output\inv_mpu_dmp_motion_driver.crf --depend .\output\inv_mpu_dmp_motion_driver.d)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7AFEA)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\stm32f10x_conf.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57075F78)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57075F78)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\math.h)(0x51C7B744)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\MPU6050\inv_mpu.h)(0x57075F7A)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\MPU6050\inv_mpu_dmp_motion_driver.h)(0x57075F7A)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\MPU6050\dmpKey.h)(0x57075F7A)
+I (E:\WorkSpace\Project\Quadcopter\Project\硬件测试工程\MPU6050_WHOAMI\User\MPU6050\dmpmap.h)(0x57075F7A)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\Time.h)(0x51C7B744)

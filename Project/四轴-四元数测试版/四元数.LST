@@ -1,0 +1,27 @@
+C51 COMPILER V9.00   四元数                                                                01/28/2015 13:34:04 PAGE 1   
+
+
+C51 COMPILER V9.00, COMPILATION OF MODULE 四元数
+OBJECT MODULE PLACED IN 四元数.OBJ
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE 四元数.c LARGE OMF2 BROWSE DEBUG TABS(2)
+
+line level    source
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   2607    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =     28      92
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,34 @@
+..\output\etootle_motor.o: ..\etootle_lib\etootle_motor.c
+..\output\etootle_motor.o: ..\etootle_lib\etootle_motor.h
+..\output\etootle_motor.o: D:\Program Files (x86)\Keil\ARM\ARMCC\bin\..\include\math.h
+..\output\etootle_motor.o: D:\Program Files (x86)\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_it.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_lib.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_map.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_conf.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_type.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\cortexm3_macro.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_adc.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_bkp.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_can.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_crc.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_dac.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_dbgmcu.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_dma.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_exti.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_flash.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_fsmc.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_gpio.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_i2c.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_iwdg.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_nvic.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_pwr.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_rcc.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_rtc.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_sdio.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_spi.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_systick.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_tim.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_usart.h
+..\output\etootle_motor.o: ..\stm32_lib\inc\stm32f10x_wwdg.h
+..\output\etootle_motor.o: ..\etootle_lib\etootle_bluetooth.h

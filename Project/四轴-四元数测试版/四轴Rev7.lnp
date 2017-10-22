@@ -1,0 +1,11 @@
+"STARTUP.obj",
+"Àƒ÷· Rev7.0.obj",
+"MPU-6050.obj",
+"NRF24L01.obj",
+"STC15W4KPWM.obj",
+"Timer.obj",
+"EEPROM.obj",
+"USART.obj",
+"IMU.obj" 
+TO "Àƒ÷·Rev7.0" 
+

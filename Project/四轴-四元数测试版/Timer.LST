@@ -1,0 +1,46 @@
+C51 COMPILER V9.00   TIMER                                                                 02/02/2015 10:24:51 PAGE 1   
+
+
+C51 COMPILER V9.00, COMPILATION OF MODULE TIMER
+OBJECT MODULE PLACED IN Timer.OBJ
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE Timer.C LARGE OMF2 BROWSE DEBUG TABS(2)
+
+line level    source
+
+   1          #include <STC15W4K60S4.H>
+   2          #include <Timer.h>
+   3          void Time0_Init()   //8ms@28MHz 定时器0 16位12T自动重载
+   4          {
+   5   1        AUXR &= 0x7F;
+   6   1        TMOD &= 0xF0;
+   7   1        IE  = 0x82;
+   8   1        TL0 = 0x15;
+   9   1        TH0 = 0xB7;
+  10   1        TF0 = 0;
+  11   1        TR0 = 1;
+  12   1      }
+  13          void Time2_Init() //不用在意这个，装逼用的
+  14          {
+  15   1        AUXR |= 0x04;   
+  16   1        T2L = 0xE5;   
+  17   1        T2H = 0xFF; 
+  18   1        AUXR |= 0x10;   
+  19   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     33    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

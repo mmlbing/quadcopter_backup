@@ -1,0 +1,280 @@
+C51 COMPILER V9.00   ËÄ_á_REV7_0                                                           02/02/2015 10:24:50 PAGE 1   
+
+
+C51 COMPILER V9.00, COMPILATION OF MODULE ËÄ_á_REV7_0
+OBJECT MODULE PLACED IN ËÄÖá Rev7.0.OBJ
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE ËÄÖá Rev7.0.C LARGE OMF2 BROWSE DEBUG TABS(2)
+
+line level    source
+
+   1          //Ì×¼þ¹ºÂòµØÖ·£º                      http://shop112966725.taobao.com
+   2          //                                                 STCunio
+   3          //ËÄ´¨ ÃàÑô  Î÷ÄÏ¿Æ¼¼´óÑ§ ÐÅÏ¢¹¤³ÌÑ§Ôº µçÆø13¼¶ ÁõÆäÃñ  ¼¼ÊõÖ§³ÖQQ£º1203933924   
+   4          //±¾ÈËÖ»Ìá¹©ÓÐÏÞ¼¼ÊõÖ§³Ö,½ØÖ¹Ê±¼ä£º2015Äê3ÔÂ1ºÅ,¹ýÊ±²»ºò¡£
+   5          //±¾ÈË½ñÄê´ó¶þÉÏÆÚ£¬ÓÉÓÚ¼¼ÊõÓÐÏÞÌáÎÊÊ±Çë²»Òª³¬¹ý±¾³ÌÐò¼°±¾Ó²¼þµÄ·¶Î§£¬Ê²Ã´½ÝÁª¹ßµ¼¼¼Êõ£¬À©Õ¹¿¨¶ûÂü£¬ÌÝ¶ÈÏÂ
+             -½µÂË²¨
+   6          //¾Í²»ÒªÎÊÁË£¬ÎÒÒ²²»¶®£¬×î½üÔÚ×ÔÑ§×Ô¶¯¿ØÖÆÔ­Àí£¬»¹ÊÇ¸öÐ¡ÔüÔü£¬Á¬STM32¶¼²»»á£¬×ö¸öËÄÖá¶¼»¹ÊÇÖ»ÄÜ¿à±ÆµØÓÃ51µ
+             -¥Æ¬»ú
+   7          //±¾³ÌÐòÊôÓÚÍêÈ«¿ªÔ´³ÌÐò£¬ÔÊÐíÓÃÓÚ½øÐÐ¶þ´Î¿ª·¢£¬µ«ÊÇ²»ÄÜ×öÏ¸Ð¡¸Ä¶¯ºó¾ÍÉùÃ÷×Ô¼ºÓµÓÐ°æÈ¨£¬
+   8          //¶ÔÓÚ³­Ï®ºóÓÖÉùÃ÷×Ô¼ºÓÐ°æÈ¨ÊÇ×Ô¼º¿ª·¢µÄÎÒÖ»ÏëËµÎÒQNMLGB¡£
+   9          
+  10          //ÐÞ¸Ä±¾³ÌÐòÓ¦×¢Òâ£¡
+  11          //Èç¹û½«´Ë³ÌÐòÓÅ»¯£¬ÐÞ¸Ä£¬Ôö¼Ó¹¦ÄÜ£¬Ðë¿ªÔ´ÖÁ°¢ÄªÂÛÌ³ STC 1Tµ¥Æ¬»ú °æ¿é
+  12          //Ê¹ÓÃ±¾³ÌÐòÓ¦×ñÑ­GNUGPLÐ­Òé£¡
+  13          
+  14          //±¾³ÌÐòÊôÓÚ±¾Ó²¼þµÄ×îÖÕ°æ±¾£¬²»»á¼ÌÐøÉý¼¶£¬µ«ÊÇ»á²»¶¨ÆÚµÄ·¢²¼ÐÞ¸´BugºóµÄ³ÌÐò¡£
+  15          
+  16          //ÌØ±ðÃùÐ»ÔÚÑÐ·¢¹ý³ÌÖÐ¸øÓèÖ§³ÖµÄÅóÓÑ¼°ÍÅÌå£º
+  17          //                                         Î÷ÄÏ¿Æ¼¼´óÑ§ µçÆø09¼¶ Áõ³©
+  18          //                                         Î÷ÄÏ¿Æ¼¼´óÑ§ Ç¶ÈëÊ½¼¼ÊõÊµÑéÊÒ ºÎ¿Æ¾ý
+  19          //                                         Î÷ÄÏ¿Æ¼¼´óÑ§ º½¿Õº½ÌìÑ§Éçôß¿ÕÆø¶¯Á¦Ñ§ÊµÑéÊÒ
+  20          
+  21          //Ó²¼þ²ÎÊý£º
+  22          //µç³Ø:1S/3.7Vµç³Ø ÍÆ¼ö300-650mAh×óÓÒ   500mahÒÔÉÏµÄµç³ØÍÆ¼ö°²×°ÔÚ±³Ãæ
+  23          //µç»ú/½°:720¿ÕÐÄ±­/59MM½°
+  24          //MCU IAP15W4K61S4@28.000MHZ  (B°æ£¡A°æµ¥Æ¬»ú¾ø¶Ô²»ÊÊºÏ£¡)
+  25          //ÌØ±ðËµÃ÷£¬±¾³ÌÐòÄ¿Ç°Ö»ÊÊºÏIAPÏµÁÐµÄµ¥Æ¬»ú£¬·ÇIAPµ¥Æ¬»úÊ¹ÓÃÐëÐÞ¸ÄEEPROM¶ÁÐ´µØÖ·
+  26          //ÍÓÂÝÒÇ¼ÓËÙ¶È¼Æ£ºMPU-6050 
+  27          //ÎÞÏßÐ¾Æ¬:NRF24L01
+  28          //µç»úÇý¶¯MOS¹Ü:AO3400
+  29          //ÉýÑ¹·½°¸:BL8530
+  30          //3.3VÎÈÑ¹·½°¸:ME6219C-33-M5G
+  31          //ÏÂÔØ¿Ú±£»¤:1Kµç×è
+  32          //»ú¼Ü³ß´ç:94mm*94mm
+  33          
+  34          //Éè¼ÆÊ§ÎóµÄµØ·½£º
+  35          //MOS¹Ü±£»¤ÓÃµÄÐ¤ÌØ»ù·Å´íÁËÎ»ÖÃ£¬²»¹ýÍêÈ«²»Ó°ÏìÊ¹ÓÃ£¬ÕâÖÖÐ¡ËÄÖá²»¼ÓÐ¤ÌØ»ù±£»¤¶¼ÐÐ¡£
+  36          
+  37          //Èí¼þ²ÎÊý£º
+  38          //×ËÌ¬½âËã£ºËÄÔªÊý
+  39          //ÂË²¨£º»¥²¹ÂË²¨£¨From µÂ¹ú¿ªÔ´ËÄÖá£©
+  40          //PID£º´®¼¶PID Íâ»·PI,ÄÚ»·PID
+  41          
+  42          //Êý¾Ý¶¨ÒåËµÃ÷£º
+  43          //data 51µ¥Æ¬»úÆ¬ÄÚRAM×îÇ°Ãæ128×Ö½ÚRAM ÓÃACC¶ÁÐ´£¬ËÙ¶È×î¿ì
+  44          //idata Æ¬ÄÚRAM×îÇ°Ãæ256×Ö½ÚµÄRAM °üÀ¨data ÓÃÀàËÆÖ¸ÕëÄ£Ê½·ÃÎÊ ÊÊºÏÓÃÓÚÖ¸Õë²Ù×÷
+  45          //pdata Íâ²¿À©Õ¹RAMµÄÇ°256×Ö½ÚµÄRAM ²»ÒªÓÃ »á´óÒÌÂè£¡
+  46          //xdata Íâ²¿À©Õ¹RAM ÓÃDPTR·ÃÎÊ
+  47          #include <STC15W4K60S4.H>
+  48          #include <intrins.h>
+  49          #include <NRF24L01.H>
+  50          #include <MPU6050.H>
+  51          #include <math.h>
+  52          #include <STC15W4KPWM.H>
+  53          #include <Timer.h>
+C51 COMPILER V9.00   ËÄ_á_REV7_0                                                           02/02/2015 10:24:50 PAGE 2   
+
+  54          #include <EEPROM.h>
+  55          #include <USART.h>
+  56          #include <IMU.H>
+  57          //******************************************************************************************************
+  58          float XE=0,YE=0;                 //½Ç¶ÈÈËÎªÐÞÕý£¬µ«ÊÇËÄÖáÆ¯ÒÆÒ»°ãÊÇÓ²¼þÔì³ÉµÄ£¬¹Ê²»½«´ËÖµÐ´ÈëEEPROM£¬Õâ¸öÖ
+             -»ÊÇÓ¦¼±Ê¹ÓÃ£¬·¢ÏÖÆ¯ÒÆÓ¦
+  59                                           //Á¬ÖÁÉÏÎ»»ú¼ì²éµç»úÖáÊÇ·ñ·¢ÉúÍäÇú£¬·¢ÏÖÎÊÌâµç»ú¼°Ê±¸ü»»
+  60          unsigned char YM=0;              //ÓÍÃÅ±ä»¯ËÙ¶È¿ØÖÆ£¬²»ÕâÑù×öµÄ»°¿ìËÙ±ä»¯ÓÍÃÅÊ±ËÄÖá»áÊ§ËÙ·­×ª²¢GG
+  61          int ich1=0,ich2=0,ich3=0,ich4=0,ich5=0,ich6=0;         //ÎÞÏß´®¿Ú/´®¿ÚÏà¹Ø
+  62          int speed0=0,speed1=0,speed2=0,speed3=0,V=0;           //µç»úËÙ¶È²ÎÊý
+  63          int PWM0=0,PWM1=0,PWM2=0,PWM3=0;  //¼ÓÔØÖÁPWMÄ£¿éµÄ²ÎÊý
+  64          int g_x=0,g_y=0,g_z=0;            //ÍÓÂÝÒÇ½ÃÕý²ÎÊý
+  65          unsigned char TxBuf[20]={0};
+  66          unsigned char RxBuf[20]={0};  
+  67          double PID_x=0,PID_y=0,PID_z=0;  //PID×îÖÕÊä³öÁ¿
+  68          float FR1=0,FR2=0,FR3=0;         //½«charÊý¾Ý×ª´æÎªfloatÐÍ
+  69          //*****************½Ç¶È²ÎÊý*************************************************
+  70          double Gyro_y=0,Gyro_x=0,Gyro_z=0;        //YÖáÍÓÂÝÒÇÊý¾ÝÔÝ´æ
+  71          double Accel_x=0,Accel_y=0,Accel_z=0;     //XÖá¼ÓËÙ¶ÈÖµÔÝ´æ
+  72          double Angle_ax=0,Angle_ay=0,Angle_az=0;  //ÓÉ¼ÓËÙ¶È¼ÆËãµÄ¼ÓËÙ¶È(»¡¶ÈÖÆ)
+  73          double Angle_gy=0,Angle_gx=0,Angle_gz=0;  //ÓÉ½ÇËÙ¶È¼ÆËãµÄ½ÇËÙÂÊ(½Ç¶ÈÖÆ)
+  74          double AngleAx=0,AngleAy=0;               //Èý½Çº¯Êý½âËã³öµÄÅ·À­½Ç
+  75          double Angle=0,Angley=0;                  //ËÄÔªÊý½âËã³öµÄÅ·À­½Ç
+  76          double Anglezlate=0;                      //ZÖáÏà¹Ø
+  77          double Ax=0,Ay=0;                         //¼ÓÈëÒ£¿ØÆ÷¿ØÖÆÁ¿ºóµÄ½Ç¶È
+  78          //****************×ËÌ¬´¦ÀíºÍPID*********************************************
+  79          float Out_PID_X=0,Last_Angle_gx=0;//Íâ»·PIÊä³öÁ¿  ÉÏÒ»´ÎÍÓÂÝÒÇÊý¾Ý
+  80          float Out_XP=60,Out_XI=0.01,ERRORX_Out=0;//Íâ»·P  Íâ»·I  Íâ»·Îó²î»ý·Ö
+  81          float In_XP=0.5,In_XI=0.01,In_XD=10,ERRORX_In=0;//ÄÚ»·P  ÄÚ»·I   ÄÚ»·D  ÄÚ»·Îó²î»ý·Ö
+  82          
+  83          float Out_PID_Y=0,Last_Angle_gy=0;
+  84          float Out_YP=60,Out_YI=0.01,ERRORY_Out=0;
+  85          float In_YP=0.5,In_YI=0.01,In_YD=10,ERRORY_In=0;
+  86          
+  87          float ZP=5.0,ZD=2.0;//×ÔÐý¿ØÖÆµÄP D
+  88            
+  89          void Angle_Calculate() interrupt 1 
+  90          { 
+  91   1        if(YM<RxBuf[4]&&(RxBuf[4]-YM)<=2){YM++;YM++;}
+  92   1        else if(YM>RxBuf[4]&&(YM-RxBuf[4])<=2){YM--;YM--;}  //·ÀÖ¹ÓÍÃÅ±ä»¯¹ý¿ì¶øÊ§ËÙ
+  93   1        else {YM=RxBuf[4];}
+  94   1        Accel_y= GetData(ACCEL_YOUT_H); //¶ÁÈ¡6050Êý¾Ý
+  95   1        Accel_x= GetData(ACCEL_XOUT_H);      
+  96   1        Accel_z= GetData(ACCEL_ZOUT_H);      
+  97   1        Gyro_x = GetData(GYRO_XOUT_H)-g_x;
+  98   1        Gyro_y = GetData(GYRO_YOUT_H)-g_y;
+  99   1        Gyro_z = GetData(GYRO_ZOUT_H)-g_z;  
+ 100   1        Last_Angle_gx=Angle_gx;   //´¢´æÉÏÒ»´Î½ÇËÙ¶ÈÊý¾Ý
+ 101   1        Last_Angle_gy=Angle_gy; 
+ 102   1        Angle_ax=(Accel_x)/8192;  //¼ÓËÙ¶È´¦Àí
+ 103   1        Angle_az=(Accel_z)/8192;  //¼ÓËÙ¶ÈÁ¿³Ì +-4g/S
+ 104   1        Angle_ay=(Accel_y)/8192;  //×ª»»¹ØÏµ8192LSB/g
+ 105   1        Angle_gx=(Gyro_x)/65.5;   //ÍÓÂÝÒÇ´¦Àí
+ 106   1        Angle_gy=(Gyro_y)/65.5;   //ÍÓÂÝÒÇÁ¿³Ì +-500¶È/S
+ 107   1        Angle_gz=(Gyro_z)/65.5;   //×ª»»¹ØÏµ65.5LSB/¶È
+ 108   1      //***********************************ËÄÔªÊý½âËã***********************************
+ 109   1        IMUupdate(Angle_gx*0.0174533,Angle_gy*0.0174533,Angle_gz*0.0174533,Angle_ax,Angle_ay,Angle_az);
+ 110   1        //0.174533ÎªPI/180 Ä¿µÄÊÇ½«½Ç¶È×ª»¡¶È
+ 111   1      //********************Èý½Çº¯ÊýÖ±½Ó½âËãÒÔ¹©±È½ÏËÄÔªÊý½âËã¾«×¼¶È********************
+ 112   1        AngleAx=atan(Angle_ax/sqrt(Angle_ay*Angle_ay+Angle_az*Angle_az))*57.2957795f; //ºóÃæµÄÊý×ÖÊÇ180/PI Ä¿µÄÊÇ
+             -»¡¶È×ª½Ç¶È
+ 113   1        AngleAy=atan(Angle_ay/sqrt(Angle_ax*Angle_ax+Angle_az*Angle_az))*57.2957795f;
+C51 COMPILER V9.00   ËÄ_á_REV7_0                                                           02/02/2015 10:24:50 PAGE 3   
+
+ 114   1      //**************XÖáÖ¸Ïò***********************************************************
+ 115   1        FR1=((float)RxBuf[1]-128)/10; //charÀàÐÍ×ª´æÎªfloatÒÔ±ã³ý·¨ÔËËã
+ 116   1        
+ 117   1        Ax=Angle-FR1;      //½Ç¶È¿ØÖÆÁ¿¼ÓÔØÖÁ½Ç¶È
+ 118   1        
+ 119   1        if(YM>20)
+ 120   1        {
+ 121   2        ERRORX_Out+=Ax;//Íâ»·»ý·Ö(ÓÍÃÅÐ¡ÓÚÄ³¸öÖµÊ±²»»ý·Ö)
+ 122   2        }
+ 123   1        else
+ 124   1        {
+ 125   2          ERRORX_Out=0; //ÓÍÃÅÐ¡ÓÚ¶¨ÖµÊ±Çå³ý»ý·ÖÖµ
+ 126   2        }
+ 127   1        if(ERRORX_Out>500){ERRORX_Out=500;}
+ 128   1        else if(ERRORX_Out<-500){ERRORX_Out=-500;}//»ý·ÖÏÞ·ù
+ 129   1        
+ 130   1        Out_PID_X=Ax*Out_XP+ERRORX_Out*Out_XI;//Íâ»·PI
+ 131   1        
+ 132   1        if(YM>20)
+ 133   1        {
+ 134   2        ERRORX_In+=(Angle_gy-Out_PID_X);  //ÄÚ»·»ý·Ö(ÓÍÃÅÐ¡ÓÚÄ³¸öÖµÊ±²»»ý·Ö)
+ 135   2        } 
+ 136   1        else
+ 137   1        {
+ 138   2          ERRORX_In=0; //ÓÍÃÅÐ¡ÓÚ¶¨ÖµÊ±Çå³ý»ý·ÖÖµ
+ 139   2        } 
+ 140   1        if(ERRORX_In>500){ERRORX_In=500;}
+ 141   1        else if(ERRORX_In<-500){ERRORX_In=-500;}//»ý·ÖÏÞ·ù
+ 142   1        
+ 143   1        PID_x=(Angle_gy+Out_PID_X)*In_XP+ERRORX_In*In_XI+(Angle_gy-Last_Angle_gy)*In_XD;//ÄÚ»·PID
+ 144   1        
+ 145   1        if(PID_x>1000){PID_x=1000;}  //Êä³öÁ¿ÏÞ·ù
+ 146   1        if(PID_x<-1000){PID_x=-1000;}
+ 147   1        
+ 148   1        speed0=0-PID_x,speed2=0+PID_x;
+ 149   1      //**************YÖáÖ¸Ïò**************************************************
+ 150   1        FR2=((float)RxBuf[2]-128)/10; //charÀàÐÍ×ª´æÎªfloatÒÔ±ã³ý·¨ÔËËã
+ 151   1        
+ 152   1        Ay=Angley+FR2;      //½Ç¶È¿ØÖÆÁ¿¼ÓÔØÖÁ½Ç¶È
+ 153   1        
+ 154   1        if(YM>20)
+ 155   1        {
+ 156   2        ERRORY_Out+=Ay;//Íâ»·»ý·Ö(ÓÍÃÅÐ¡ÓÚÄ³¸öÖµÊ±²»»ý·Ö)
+ 157   2        }
+ 158   1        else
+ 159   1        {
+ 160   2          ERRORY_Out=0; //ÓÍÃÅÐ¡ÓÚ¶¨ÖµÊ±Çå³ý»ý·ÖÖµ
+ 161   2        } 
+ 162   1        if(ERRORY_Out>500){ERRORY_Out=500;}
+ 163   1        else if(ERRORY_Out<-500){ERRORY_Out=-500;}//»ý·ÖÏÞ·ù
+ 164   1        
+ 165   1        Out_PID_Y=Ay*Out_YP+ERRORY_Out*Out_YI;//Íâ»·PI
+ 166   1        
+ 167   1        if(YM>20)
+ 168   1        {
+ 169   2        ERRORY_In+=(Angle_gx-Out_PID_Y);  //ÄÚ»·»ý·Ö(ÓÍÃÅÐ¡ÓÚÄ³¸öÖµÊ±²»»ý·Ö)
+ 170   2        }   
+ 171   1        else
+ 172   1        {
+ 173   2          ERRORY_In=0; //ÓÍÃÅÐ¡ÓÚ¶¨ÖµÊ±Çå³ý»ý·ÖÖµ
+ 174   2        } 
+ 175   1        if(ERRORY_In>500){ERRORY_In=500;}
+C51 COMPILER V9.00   ËÄ_á_REV7_0                                                           02/02/2015 10:24:50 PAGE 4   
+
+ 176   1        else if(ERRORY_In<-500){ERRORY_In=-500;}//»ý·ÖÏÞ·ù
+ 177   1        
+ 178   1        PID_y=(Angle_gx+Out_PID_Y)*In_YP+ERRORY_In*In_YI+(Angle_gx-Last_Angle_gx)*In_YD;//ÄÚ»·PID
+ 179   1        
+ 180   1        if(PID_y>1000){PID_y=1000;}  //Êä³öÁ¿ÏÞ·ù
+ 181   1        if(PID_y<-1000){PID_y=-1000;}
+ 182   1        
+ 183   1        speed3=0+PID_y,speed1=0-PID_y;//¼ÓÔØµ½ËÙ¶È²ÎÊý
+ 184   1      //**************ZÖáÖ¸Ïò(ZÖáËæ±ãÀ²£¬×ÔÐý¿ØÖÆÃ»±ØÒªÉÏ´®¼¶PID)*****************************  
+ 185   1        FR3=((float)RxBuf[3]-128)/7;
+ 186   1        Angle_gz-=FR3; 
+ 187   1        PID_z=(Angle_gz)*ZP+(Angle_gz-Anglezlate)*ZD;
+ 188   1        Anglezlate=Angle_gz;
+ 189   1        speed0=speed0+PID_z,speed2=speed2+PID_z;
+ 190   1        speed1=speed1-PID_z,speed3=speed3-PID_z;
+ 191   1      //*****************´®¿Ú¼°ÎÞÏß´®¿ÚÏà¹Ø***************************************************
+ 192   1        ich1=Ax;
+ 193   1        ich2=Ay;
+ 194   1        ich3=AngleAx;                 //´Ë´¦¿É·¢ËÍ6¸öÊý¾ÝÖÁÉÏÎ»»ú£¬ÐèÒª·¢ËÍÊ²Ã´Êý¾ÝÔÚ´Ë´¦ÐÞ¸Ä¼´¿É
+ 195   1        ich4=AngleAy;
+ 196   1        ich5=0;
+ 197   1        ich6=0;
+ 198   1      //**************½«ËÙ¶È²ÎÊý¼ÓÔØÖÁPWMÄ£¿é*************************************************  
+ 199   1        PWM0=(1000-YM*4+speed0);
+ 200   1        if(PWM0>1000){PWM0=1000;}    //ËÙ¶È²ÎÊý¿ØÖÆ£¬·ÀÖ¹³¬¹ýPWM²ÎÊý·¶Î§0-1000
+ 201   1        else if(PWM0<0){PWM0=0;}
+ 202   1      
+ 203   1        PWM1=(1000-YM*4+speed1);
+ 204   1        if(PWM1>1000){PWM1=1000;}
+ 205   1        else if(PWM1<0){PWM1=0;}
+ 206   1      
+ 207   1        PWM2=(1000-YM*4+speed2);
+ 208   1        if(PWM2>1000){PWM2=1000;}
+ 209   1        else if(PWM2<0){PWM2=0;}
+ 210   1        
+ 211   1        PWM3=(1000-YM*4+speed3);
+ 212   1        if(PWM3>1000){PWM3=1000;}
+ 213   1        else if(PWM3<0){PWM3=0;}
+ 214   1        if(YM>=10)
+ 215   1        {PWM(PWM1,PWM2,PWM0,PWM3);}//1203
+ 216   1        else
+ 217   1        {PWM(1000,1000,1000,1000);}
+ 218   1      } 
+ 219          void main()
+ 220          {
+ 221   1      PWMGO();//³õÊ¼»¯PWM
+ 222   1      IAPRead();//¶ÁÈ¡ÍÓÂÝÒÇ¾²²î
+ 223   1      InitMPU6050();//³õÊ¼»¯MPU-6050
+ 224   1      Usart_Init();//³õÊ¼»¯´®¿Ú
+ 225   1      init_NRF24L01();//³õÊ¼»¯ÎÞÏßÄ£¿é
+ 226   1      Time0_Init();//³õÊ¼»¯¶¨Ê±Æ÷
+ 227   1      RxBuf[1]=128;
+ 228   1      RxBuf[2]=128;
+ 229   1      RxBuf[3]=128;
+ 230   1      RxBuf[4]=0;
+ 231   1        SetRX_Mode();
+ 232   1      while(1)
+ 233   1      {    
+ 234   2              Delay(750);
+ 235   2              nRF24L01_RxPacket(RxBuf);
+ 236   2              if(RxBuf[5]==1) {IAPWrite();RxBuf[5]=0;}
+ 237   2              if(RxBuf[6]==1) {XE=Ax;YE=Ay;RxBuf[6]=0;}
+C51 COMPILER V9.00   ËÄ_á_REV7_0                                                           02/02/2015 10:24:50 PAGE 5   
+
+ 238   2              //Send(ich1,ich2,ich3,ich4,ich5,ich6);  //´®¿Ú·¢ËÍÊý¾Ý  ÈçÐèÁ¬½ÓÉÏÎ»»ú£¬ÐëÈ¡Ïû×¢ÊÍ±¾¾ä£¡£¡£¡×¢ÊÍ±¾¾
+             -äÊÇÎªÁË¼õÐ¡Ò£¿ØÑÓÊ±
+ 239   2      }
+ 240   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   3302    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =    265    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
